@@ -1,28 +1,61 @@
 {
   "name": "lamassu-kraken",
-  "version": "1.0.4",
-  "description": "lamassu-server plugin for the Kraken exchange",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Lamassu ticker for Kraken Bitcoin Price Index",
+  "main": "ticker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lamassu/lamassu-kraken.git"
+    "url": ""
   },
-  "author": "Josh Harvey <josh@lamassu.is> (https://lamassu.is/)",
-  "license": "Unlicense",
+  "keywords": [
+    "Lamassu",
+    "Kraken",
+    "Bitcoin"
+  ],
+  "author": {
+    "name": "Lamassu",
+    "url": "https://lamassu.is"
+  },
+  "license": "unlicense",
   "bugs": {
-    "url": "https://github.com/lamassu/lamassu-kraken/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/lamassu/lamassu-kraken",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
   "dependencies": {
-    "axios": "^0.9.1",
-    "bignumber.js": "^2.3.0",
-    "es6-promise": "^3.1.2",
-    "kraken-api": "^0.1.7",
-    "lamassu-config": "^0.4.4",
-    "lodash": "^4.8.1",
-    "promptly": "^1.1.0"
-  }
+    "request": "^2.81.0",
+    "promise": "^7.1.1"
+  },
+  "gitHead": "",
+  "homepage": "",
+  "_id": "lamassu-kraken@0.0.1",
+  "_shasum": "e5c3ce422acfc8fad0264c21c3b8454e39342b2e",
+  "_from": "lamassu-kraken@~1.0.0",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "joshmh",
+    "email": "joshmh@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "TRS",
+      "email": "t.spoor@byelex.nl"
+    }
+  ],
+  "dist": {
+    "shasum": "",
+    "tarball": ""
+  },
+  "_npmOperationalInternal": {
+    "host": "",
+    "tmp": ""
+  },
+  "directories": {},
+  "_resolved": ""
 }
