@@ -59,9 +59,9 @@ exports.ticker = function ticker (currencies, cryptoCoin, callback) {
 	}
 
 	if (!callback) {
-    callback = cryptoCoin
-    cryptoCoin = 'BTC'
-  }
+		callback = cryptoCoin
+		cryptoCoin = 'BTC'
+	}
 
 	var currency = currencies[0]
 		
