@@ -1,6 +1,7 @@
 'use strict'
 var Request = require('request')
 var Promise = require('promise')
+var _ = require('lodash')
 
 exports.NAME = 'Kraken'
 exports.SUPPORTED_MODULES = ['ticker']
