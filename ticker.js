@@ -17,7 +17,7 @@ var PAIRS = {
 }
 
 var pluginConfig = {
-	api_url: 'https://api.kraken.com/0/public/Ticker?pair='
+	api_url: 'https://api.kraken.com/0/public'
 }
 
 exports.config = function config (localConfig) {
@@ -30,9 +30,10 @@ function getCurrencyRates (currency, cryptoCode) {
 		function (resolve, reject) {
 
 			var pair = PAIRS[cryptoCode][currency]
+			var ticker_url = pluginConfig.api_url + '/Ticker' + '?pair=' + pair
 
 			var options = {
-				url: pluginConfig.api_url + pair,
+				url: ticker_url,
 				method: 'GET',
 				json:true
 			}
