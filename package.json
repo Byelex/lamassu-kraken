@@ -4,11 +4,10 @@
   "description": "Lamassu ticker for Kraken Bitcoin Price Index",
   "main": "ticker.js",
   "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Byelex/lamassu-kraken.git"
   },
   "keywords": [
     "Lamassu",
@@ -19,13 +18,11 @@
     "name": "Lamassu",
     "url": "https://lamassu.is"
   },
-  "license": "unlicense",
+  "license": "MIT",
   "bugs": {
     "url": ""
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.21.4"
   },
   "dependencies": {
     "request": "^2.81.0",
@@ -34,17 +31,15 @@
   "gitHead": "",
   "homepage": "",
   "_id": "lamassu-kraken@0.0.1",
-  "_shasum": "e5c3ce422acfc8fad0264c21c3b8454e39342b2e",
-  "_from": "lamassu-kraken@~1.0.0",
+  "_shasum": "",
+  "_from": "lamassu-kraken@~0.0.1",
   "_npmVersion": "3.10.8",
   "_nodeVersion": "6.9.1",
   "_npmUser": {
-    "name": "joshmh",
-    "email": "joshmh@gmail.com"
   },
   "maintainers": [
     {
-      "name": "TRS",
+      "name": "TS",
       "email": "t.spoor@byelex.nl"
     }
   ],
